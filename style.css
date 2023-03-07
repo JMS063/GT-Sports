@@ -2,12 +2,12 @@ body{
     background-color:#2a080a ;
 }
 h1 {
-    color: white;
+  color: white;
    text-align: center; 
    width: 100%;
    font-size:x-large ;
 }
-img {
+#logo {
     border-radius: 8px;
 }
 
@@ -34,4 +34,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+#main_theme_photo{
+  width: 1000px;
+  display: block;
+  margin: auto;
 }
