@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Feedback Form</title>
+    <link rel="stylesheet" href="feedback_style.css">
+</head>
+<body>
+    <form action="submit-form.php" method="POST">
+    <h1 id="hd" >Feedback Form</h1>
+
+    <div> 
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" required>
+    </div>
+
+    <div>
+        <label for="email">Your email address:</label> 
+    </div>
+
+    <div>
+        <input type="text" id="email" name="email" required> 
+    </div>
+
+        <label for="gender">What is your gender?:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <input type="radio" id="else" name="gender" value="else">
+        <label for="else">I prefer not to say</label>
+        <br>
+      <label for="textmessages">Please fill in your feedback:</label><br>
+      <textarea id="textmessages" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="send it">
+        <input type="reset" value="Clear">
+      </form>
+</body>
+</html>
