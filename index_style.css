@@ -1,0 +1,10 @@
+body{
+    background-color: #eaf3d9;
+}
+
+/*Change text position and line gaps*/
+#passion{
+    text-align: center;
+    line-height: 20px;
+
+}

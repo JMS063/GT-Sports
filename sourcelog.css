@@ -1,0 +1,16 @@
+body{
+    background-color: #f0dda8;
+}
+
+#hd1{
+    text-align: center;
+}
+
+/*Put a solid box out side the table and edit the text*/ 
+#t1{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    letter-spacing:1px;
+}

@@ -1,16 +1,21 @@
 body{
     background-color:#2a080a ;
 }
+
+/*Customize heading 1*/
 h1 {
   color: white;
    text-align: center; 
    width: 100%;
    font-size:x-large ;
 }
+
+/*Reset logo size*/
 #logo {
     border-radius: 8px;
 }
 
+/* Code below is to edit the apperance of the Navigation bar*/
 nav {
   background-color: #91211c;
   text-align: center;

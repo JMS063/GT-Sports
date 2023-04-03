@@ -8,35 +8,35 @@
     <form action="submit-form.php" method="POST">
     <h1 id="hd" >Feedback Form</h1>
 
-    <div> 
-        <label for="name">Name:</label>
-        <br>
-        <input type="text" name="name" required>
+    <div>
+        <p id="name"> Nmae:</p>
+        <input type="text" id="name" name="name"required>
     </div>
 
     <div>
-        <label for="email">Your email address:</label> 
-    </div>
-
-    <div>
+        <p id="email">Email Address:</p> 
         <input type="text" id="email" name="email" required> 
     </div>
 
-        <label for="gender">What is your gender?:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
-        <input type="radio" id="else" name="gender" value="else">
-        <label for="else">I prefer not to say</label>
-        <br>
-      <label for="textmessages">Please fill in your feedback:</label><br>
-      <textarea id="textmessages" name="message" rows="4" cols="50"></textarea>
-        <br>
+    <div>
+        <p id="gender"> Gender:</p>
+        <select id="select-gender" name="gg">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="Prefer not tell">Prefer not tell</option>
+        </select>
+    </div>
+
+    <div>
+        <p id="feedback"> Feedback:</p>
+        <textarea id="textmessages" name="message" rows="4" cols="50" placeholder="Type someting you want to tell us..."></textarea>
+    </div>
+        
+    
         <input type="submit" value="send it">
         <input type="reset" value="Clear">
       </form>
+      <p><a href="index.html">Click here -- Go to index.html</a></p>
 </body>
 </html>
