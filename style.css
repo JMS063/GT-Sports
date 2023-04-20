@@ -1,5 +1,5 @@
 body{
-    background-color:#2a080a ;
+    background-color:#272727 ;
 }
 
 /*Customize heading 1*/
@@ -42,7 +42,7 @@ a {
 }
 
 #main_theme_photo{
-  width: 1000px;
+  width: 50%;
   display: block;
   margin: auto;
 }
