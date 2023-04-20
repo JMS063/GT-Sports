@@ -1,9 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head><Title>GTSports : Something more than game </Title>
+        <link rel="stylesheet" href="gallerystyle.css">
+        <script src="galleryscript.js"></script>
+        </head>
 <body>
-    <p>
-        Nothing here yet.
-    </p>
+    <body>
+  
+        <div style="display: flex; align-items: center;">
+          <a href="homepage.html">
+              <img id="logo" src="image/logo.png" width="50px">
+           </a>
+          <h1>Gallery </h1>
+        </div>
+        <nav>
+          <ul>
+              <li><a href="car_by_world.html">Cars</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="world_map.html">Maps</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="#">Teams</a></li>
+              <li><a href="#">Sponsors</a></li>
+          </ul>
+        </nav>
+      </body>
+      <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">1 / 13</div>
+            <img src="image/f1-1.png" style="width:80%;">
+        </div>
+      
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">2 / 13</div>
+            <img src="image/f1-2.png" style="width:80%">
+        </div>
+      
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">3 / 13</div>
+            <img src="image/f1-3.png" style="width:80%">
+        </div>
+      
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">4 / 13</div>
+            <img src="image/f1-4.png" style="width:80%">
+        </div>
+      
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">5 / 13</div>
+            <img src="image/race-1.png" style="width:80%">
+        </div>
+      
+        <div class="photogallery" style="text-align: center;">
+          <div class="numbertext">6 / 13</div>
+            <img src="image/supra_in_race.png" style="width:80%">
+        </div>
+
+        <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">7 / 13</div>
+              <img src="image/supra-1.png" style="width:80%">
+          </div>
+        
+        <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">8 / 13</div>
+              <img src="image/GTR.png" style="width:80%">
+         </div>
+
+         <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">9 / 13</div>
+              <img src="image/demo-1.png" style="width:80%">
+         </div>
+
+         <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">10 / 13</div>
+              <img src="image/demo-2.png" style="width:80%">
+         </div>
+
+         <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">11 / 13</div>
+              <img src="image/demo-3.png" style="width:80%">
+         </div>
+
+         <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">12 / 13</div>
+              <img src="image/crew-1.png" style="width:80%">
+         </div>
+
+         <div class="photogallery" style="text-align: center;">
+            <div class="numbertext">13 / 13</div>
+              <img src="image/crew-2.png" style="width:80%">
+         </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column" >
+            <img class="demo cursor" src="image/f1-1.png" style="width:100%" onclick="currentSlide(1)" alt="null">
+          </div>
+          <div class="column" > 
+            <img class="demo cursor" src="image/f1-2.png" style="width:100%" onclick="currentSlide(2)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/f1-3.png" style="width:100%" onclick="currentSlide(3)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/f1-4.png" style="width:100%" onclick="currentSlide(4)" alt="null">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column" >
+            <img class="demo cursor" src="image/race-1.png" style="width:100%" onclick="currentSlide(5)" alt="null">
+          </div> 
+          <div class="column" >
+            <img class="demo cursor" src="image/supra_in_race.png" style="width:100%" onclick="currentSlide(6)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/supra-1.png" style="width:100%" onclick="currentSlide(7)" alt="null">
+          </div>
+          <div class="column" > 
+            <img class="demo cursor" src="image/GTR.png" style="width:100%" onclick="currentSlide(8)" alt="null">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column" >
+            <img class="demo cursor" src="image/demo-1.png" style="width:100%" onclick="currentSlide(9)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/demo-2.png" style="width:100%" onclick="currentSlide(10)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/demo-3.png" style="width:100%" onclick="currentSlide(11)" alt="null">
+          </div> 
+          <div class="column" >
+            <img class="demo cursor" src="image/crew-1.png" style="width:100%" onclick="currentSlide(12)" alt="null">
+          </div>
+          <div class="column" >
+            <img class="demo cursor" src="image/crew-2.png" style="width:100%" onclick="currentSlide(13)" alt="null">
+          </div>
+        </div>
+      </div>
 </body>
 </html>
 
