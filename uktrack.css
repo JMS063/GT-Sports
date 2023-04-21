@@ -1,0 +1,42 @@
+body{
+    background-color:#272727 ;
+}
+
+/*Customize heading 1*/
+h1 {
+  color: white;
+   text-align: center; 
+   width: 100%;
+   font-size:x-large ;
+}
+
+/*Reset logo size*/
+#logo {
+    border-radius: 8px;
+}
+
+/* Code below is to edit the apperance of the Navigation bar*/
+nav {
+  background-color: #91211c;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  float: none;
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
