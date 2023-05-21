@@ -1,5 +1,5 @@
 body{
-    background-color:#272727 ;
+    background-color:#272727;
 }
 
 /*Customize heading 1*/
@@ -39,10 +39,4 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-#main_theme_photo{
-  width: 50%;
-  display: block;
-  margin: auto;
 }

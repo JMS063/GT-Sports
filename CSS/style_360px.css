@@ -1,0 +1,85 @@
+body{
+    background-color:#272727;
+}
+
+/*Customize heading 1*/
+h1 {
+  color: white;
+  text-align: center; 
+  width: 100%;
+  font-size: large;
+}
+
+/*Reset logo size*/
+#logo {
+    border-radius: 8px;
+    width: 50%;
+}
+
+/* Code below is to edit the appearance of the Navigation bar*/
+nav {
+  background-color: #91211c;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: none;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+#main_theme_photo{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+/* Styles for screens larger than mobile but smaller than laptop (e.g. tablets) */
+@media (min-width: 361px) and (max-width: 768px) {
+    h1 {
+        font-size: x-large;
+    }
+
+    #logo {
+        width: 75%;
+    }
+
+    a {
+        padding: 14px 16px;
+    }
+
+    #main_theme_photo {
+        width: 75%;
+    }
+}
+
+/* Styles for laptop screens and above */
+@media (min-width: 769px) {
+    h1 {
+        font-size: xx-large;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    a {
+        padding: 14px 16px;
+    }
+
+    #main_theme_photo {
+        width: 50%;
+    }
+}

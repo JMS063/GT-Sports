@@ -1,42 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Feedback Form</title>
-    <link rel="stylesheet" href="feedback_style.css">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="CSS/feedback_style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+
+        @media screen and (min-width: 768px) {
+            input[type="text"],
+            select,
+            textarea {
+                width: 90%;
+            }
+        }
+        
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #91211c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #91211c;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <form action="submit-form.php" method="POST">
-    <h1 id="hd" >Feedback Form</h1>
+        <h1>Feedback Form</h1>
 
-    <div>
-        <p id="name"> Nmae:</p>
-        <input type="text" id="name" name="name"required>
-    </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
 
-    <div>
-        <p id="email">Email Address:</p> 
-        <input type="text" id="email" name="email" required> 
-    </div>
+        <div>
+            <label for="email">Email Address:</label> 
+            <input type="text" id="email" name="email" required> 
+        </div>
 
-    <div>
-        <p id="gender"> Gender:</p>
-        <select id="select-gender" name="gg">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Other">Other</option>
-            <option value="Prefer not tell">Prefer not tell</option>
-        </select>
-    </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="select-gender" name="gg">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not tell">Prefer not to tell</option>
+            </select>
+        </div>
 
-    <div>
-        <p id="feedback"> Feedback:</p>
-        <textarea id="textmessages" name="message" rows="4" cols="50" placeholder="Type someting you want to tell us..."></textarea>
-    </div>
+        <div>
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type something you want to tell us..."></textarea>
+        </div>
         
-    
-        <input type="submit" value="send it">
+        <input type="submit" value="Send">
         <input type="reset" value="Clear">
-      </form>
-      <p><a href="index.html">Click here -- Go to index.html</a></p>
+    </form>
+    <p><a href="index.html">Click here to go back to index.html</a></p>
 </body>
 </html>

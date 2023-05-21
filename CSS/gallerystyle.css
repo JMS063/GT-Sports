@@ -47,7 +47,7 @@ a {
     box-sizing: border-box;
   }
   
-  /* Position the image container (needed to position the left and right arrows) */
+  /* Position the image container */
   .container {
     position: relative;
   }
@@ -62,7 +62,7 @@ a {
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
+  /*Set buttons color, size and position*/
   .prev,
   .next {
     cursor: pointer;

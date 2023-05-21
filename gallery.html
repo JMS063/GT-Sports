@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head><Title>GTSports : Something more than game </Title>
-        <link rel="stylesheet" href="gallerystyle.css">
-       <script src="galleryscript.js"></script> 
+        <link rel="stylesheet" href="CSS/gallerystyle.css"> <!--Link css file-->
+       <script src="JS/galleryscript.js"></script>  <!--Link js file-->
+       <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6468fa60ff0cc50019255214&product=image-share-buttons&source=platform" async="async"></script>
         </head>
 <body>
-  
+   <!--setup heading and logo -->
         <div style="display: flex; align-items: center;">
           <a href="homepage.html">
               <img id="logo" src="image/logo.png" width="50px">
            </a>
           <h1>Gallery </h1>
         </div>
+         <!--setup navigation bar-->
         <nav>
           <ul>
+            <li><a href="homepage.html">Home</a></li>
               <li><a href="car_by_world.html">Cars</a></li>
               <li><a href="#">Events</a></li>
               <li><a href="world_map.html">Maps</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="#">Teams</a></li>
-              <li><a href="#">Sponsors</a></li>
+              <li><a href="teams.html">Teams</a></li>
+
           </ul>
         </nav>
+         <!--impaort photo for this gallery and adjust the ares-->
       <div class="container">
 
         <div class="photogallery" style="text-align: center;">
@@ -85,7 +88,7 @@
               <img src="image/crew-2.png" style="width:80%">
          </div>
       
-
+ <!--button added -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       
@@ -94,10 +97,10 @@
           <p id="caption"></p>
         </div>
       
-
+ <!--create a clickable photo preview in two columns-->
         <div class="row">
           <div class="column" >
-            <img class="slides cursor" src="image/f1-1.png" style="width:100%" onclick="currentSlide(1)" alt="Real Weather condition">
+            <img class="slides cursor" src="image/f1-1.png" style="width:100%" onclick="currentSlide(1)" alt="Real Weather Condition">
           </div>
           <div class="column" > 
             <img class="slides cursor" src="image/f1-2.png" style="width:100%" onclick="currentSlide(2)" alt="Real Weather condition">
